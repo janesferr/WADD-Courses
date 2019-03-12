@@ -1,0 +1,263 @@
+/*Student Name - Current Date */
+
+/* Style for outer-wrapper element */
+#outer-wrapper { 
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+/* Style for webdev class */
+.webdev {	
+	font-family: "Mission Gothic", "Times New Roman", serif;
+	font-size: 3em;
+	color: #0033CC;
+}
+
+/* Style for figure element */
+figure {
+	margin: 0;
+}
+
+/* Style for figure caption element */
+figcaption {
+	margin-top: -2em;
+}
+
+/* Style for main element */
+main {
+	margin-top: 2em;	
+	display: block;
+}
+
+/* Style for section element */
+section {
+	margin: 1em;
+	border: solid 0.1em #061580;
+	padding: 2%;
+}
+
+/* Style for article element */
+article {
+	padding: 1%;
+}
+
+/* Style for aside element */
+aside {
+	font-style: italic;
+	font-size: 1.25em;
+	color: #0033CC;
+	margin-top: 1em;
+	padding: 3%;
+}
+
+/* Style for dt element */
+dt { 
+	font-weight: bold; 
+	color: #0033CC;
+}
+
+/* Style for footer element */
+footer {
+	margin-top: 2em;
+	clear: both;
+}
+
+/* Style for footer li element */		
+footer li { 
+	list-style-type: none;
+	display: inline;
+}
+
+/* Style for img element */
+img { 
+	max-width: 100%;
+}
+
+/* Style for footer ul element */
+footer ul {
+	padding: 0;
+}
+
+/* Style for footer li anchor element */
+footer li a {
+	text-decoration: none;
+	color: #003366;
+	padding: 2%;
+	margin: 1%;
+	background-color: #B2CCCC;
+}
+
+/* Style for mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style for desktop class */	
+.desktop { 
+	display: none; 
+}
+
+/* Style rule for input form elements */
+input { 
+    display: block;
+	margin-bottom: 1em;
+}
+
+/* Style rule for label element */
+label {
+	display: block;
+}
+
+/* Styles for Tablet Viewport */
+@media only screen and (min-width: 680px) {
+
+/* Style for header element */
+header {
+	float: left;
+	width: 40%;
+}
+
+/* Style for nav element */
+nav {
+	float: right;
+	width: 50%;
+	margin-top: 1em;
+	padding: 3%;
+}
+
+/* Style for nav li element */
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	white-space: nowrap;
+	text-transform: lowercase;
+	font-size: 0.9em;
+	padding: 2%;
+}
+
+/* Style for nav li anchor element */
+nav li a {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color: #0033CC;	
+	font-size: 1.5em;
+	padding: 5%;
+}
+
+/* Style for figure caption element */
+figcaption {
+	margin-top: 0;
+}
+
+/* Style for main element */
+main {
+	margin-top: 2em;
+	clear: both;
+	display: block;
+	padding: 3%;
+}
+
+/* Style for article element */
+article {
+	float: left;
+	width: 70%;
+}
+
+/* Style for aside element */
+aside {
+	float: right;
+	width: 20%;
+	display: block;	
+	margin-top: -0.5em;
+	background-color: #0033CC;
+	color: #FFFFFF;
+}
+
+/* Style for footer paragraph element */
+footer p{
+	margin-top: 5em;
+	clear: left;
+}
+
+/* Style for mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style for desktop class */
+.desktop { 
+	display: inline-block; 
+}
+
+/* Style rule for td element */
+td {
+	padding: 1em;
+	border-collapse: collapse;
+	border: solid 0.1em #0033CC;
+}
+
+/* Style rule for caption element*/
+caption {
+	font-weight: bold;
+	font-size: 2em;
+	color: #0033CC;
+}
+
+/* Style rule for label element */
+label { 
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+
+}
+
+/* Styles for Desktop Viewport */
+@media only screen and (min-width: 850px) {
+
+/* Style for outer-wrapper element */
+#outer-wrapper{
+	width: 90%;
+}
+
+/* Style for nav li anchor element */
+nav li a{
+	padding: 0;
+}
+
+/* Style rules for pseudo-classes */ 
+nav li a:link {
+	color: #0033CC;	
+}
+
+nav li a:visited {
+	color: #660066;	
+}
+
+nav li a:hover {
+	color: #000066;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+/* Style for main element */
+main {
+	overflow: auto;
+}
+
+/* Style for section element */
+section {
+	float: left;
+	width: 40%;
+	height: 15em;
+}
+
+/* Style for footer element */
+footer {
+	clear: left;
+}
+
+}

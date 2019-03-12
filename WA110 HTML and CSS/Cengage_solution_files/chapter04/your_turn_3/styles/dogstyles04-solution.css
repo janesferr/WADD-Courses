@@ -1,0 +1,39 @@
+/* Student name - Current date */
+.float-right {float:right;
+			margin: 0 0 2% 2%;}
+.float-left {float:left;
+			margin: 0 2% 2% 0;} 
+.clear-float {clear: both;} 
+
+#page-wrapper { width: 70%;
+	margin: 0 auto; /* 0 top and bottom, auto left and right */
+			}
+
+/*	Unique styles provided by each student include....		
+•	Font color and font face for the body
+•	Background color for the main content
+•	Any other styles you deem important or appropriate to best display the content on the pages. */
+
+/*  Sample solution */
+
+/*•	Font color and font face for the body - from Student 1*/
+body { 
+	color: #663300;
+	font-family: Play, Cabin, sans-serif;
+		}
+/*•	Background color for the main content - from Student 2 */
+#main { background-color: #E0D6CC;
+		padding: 5%;}  /* padding added to make the content in #main not touch the edge of the box */
+		
+/* styles added to create a horizontal navigation bar - from Student 4*/
+nav li { list-style-type: none;
+		display: inline;
+		}
+		
+/* styles to center banner image - from Student 3*/
+.center-img { 
+		display:block;
+		margin: 0 auto;
+		}
+
+

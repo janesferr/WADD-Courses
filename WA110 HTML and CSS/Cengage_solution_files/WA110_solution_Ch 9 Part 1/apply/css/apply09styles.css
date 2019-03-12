@@ -1,0 +1,48 @@
+/* Style sheet for Apply Chapter 9 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #57534B;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #E3D7BC;
+}
+ 
+/* Style rules for figure and figcaption */
+figure, figcaption {
+	text-align: center;
+}
+
+/* Style rule for figcaption */
+figcaption {
+	padding: 1em;
+	font-size: 2em;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}

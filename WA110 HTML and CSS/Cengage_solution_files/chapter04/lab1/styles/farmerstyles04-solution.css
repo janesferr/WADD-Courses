@@ -1,0 +1,33 @@
+/*Student name and current date*/
+
+body { color: #000000;
+	  background-color: #B8D1EB;
+	  font-family: "Times New Roman", serif;
+	  }
+
+#outerwrapper { width: 70%;
+				margin: 0 auto 0 auto;
+				}
+
+footer {	font-size: 0.75em;
+		text-align: center;
+		}
+
+#main {	background-color: #C5A98B;
+		padding: 10px;
+	}
+
+.floatleft {	float: left;
+		margin-right: 3%;
+	}
+
+.floatright {float: right;
+		margin-left: 3%;
+		}
+	
+ul {	list-style-type: none;
+			}
+
+#main, footer{ clear: both;
+      }
+

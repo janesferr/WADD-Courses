@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- This website template was created by Ally Riggio -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Actor|Coming+Soon" rel="stylesheet">
+	<title>Lovely Harvest</title> 
+</head>
+<body>
+
+	<!-- HEADER FOR MOBILE ONLY -->
+	<header class="mobile">
+		<h1>Lovely Harvest</h1> 
+		<h3>Nursery and Garden Center<h3>
+		<img src="images/imagejumbo.jpg">
+	</header>
+	
+	<nav>
+		<div class="mobile">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="gardens.html">Our Gardens</a></li>
+				<li><a href="#">Landscaping</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="news.html">Newsletter</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="desktop">
+			<div class="nav">
+				<ul class="pull-left">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="gardens.html">Our Gardens</a></li>
+					<li><a href="#">Landscaping</a></li>
+					<li><a href="events.html">Events</a></li>
+				</ul>
+				<ul class="pull-right">
+					<li><a href="news.html">Newsletter</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<main>
+	
+		<h1>Garden Gallery</h1>
+		
+		<div class="mobile">
+			<div class="mgallery">
+				<figure>
+						<img class="mimg" src="images/g1.jpg" alt="Gallery picture 1">
+						<img class="mimg" src="images/g2.jpg" alt="Gallery picture 2">
+						<img class="mimg" src="images/g3.jpg" alt="Gallery picture 3">
+						<img class="mimg" src="images/g4.jpg" alt="Gallery picture 4">
+						<img class="mimg" src="images/g5.jpg" alt="Gallery picture 5">
+						<img class="mimg" src="images/g6.jpg" alt="Gallery picture 6">
+				</figure>
+			</div>
+		</div>
+		
+		<div class="desktop">
+			<div>
+				<img src="images/g1.jpg" id="imgBig">
+			</div>
+			<h2>Click the images below to browse our collection of plants!</h2>
+			<div class="gallery">
+				<figure>
+					<img class="gimg" src="images/g1.jpg" alt="Gallery picture 1" onclick="document.getElementById('imgBig').src=fig1">
+					<img class="gimg" src="images/g2.jpg" alt="Gallery picture 2" onclick="document.getElementById('imgBig').src=fig2">
+					<img class="gimg" src="images/g3.jpg" alt="Gallery picture 3" onclick="document.getElementById('imgBig').src=fig3">
+					<img class="gimg" src="images/g4.jpg" alt="Gallery picture 4" onclick="document.getElementById('imgBig').src=fig4">
+					<img class="gimg" src="images/g5.jpg" alt="Gallery picture 5" onclick="document.getElementById('imgBig').src=fig5">
+					<img class="gimg" src="images/g6.jpg" alt="Gallery picture 6" onclick="document.getElementById('imgBig').src=fig6">
+				</figure>
+			</div>
+		</div>
+		
+		<script src="gardens.js"></script>
+	
+	</main>
+	
+	<footer>
+		&copy; Copyright 2017. All Rights Reserved<br>
+		<a href="mailto:harvest@lovelyharvest.com">mail@lovelyharvest.com</a></p>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Student name and current date */
+
+body {  color: #000000;
+	   font-family: "Calibri", sans-serif;
+	   background-color: #FF9900;
+	}
+
+#wrapper { width: 80%;
+			margin: 0 auto 0 auto;
+		}
+
+.floatleft {  float:left;
+              margin-right: 2%;
+           }
+
+.floatright {  float:right;
+               margin-left: 2%;
+             }
+			 
+nav ul {	list-style-type: none;
+			}
+			
+.boldtext, dt { font-weight: bold; } 
+

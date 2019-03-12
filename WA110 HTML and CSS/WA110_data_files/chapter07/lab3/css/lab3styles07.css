@@ -1,0 +1,30 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+body {
+	
+}
+
+header {
+	height: 5em;
+	background-color: #FFFFFF;
+	margin-bottom: 0.5em;
+}
+
+nav {
+	height: 2em;
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+}
+
+main {
+	height: 15em;
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+	display: block;
+}
+
+footer {
+	height: 3em;
+	background-color: #FFFFFF;
+	font-size: 0.8em;
+}

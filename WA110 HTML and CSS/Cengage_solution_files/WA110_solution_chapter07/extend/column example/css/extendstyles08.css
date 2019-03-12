@@ -1,0 +1,18 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #A3C4BD;
+}
+
+/* Style for article specifies columns */
+article {
+	-webkit-column: 3; /* For Chrome, Opera, and Safari */
+	-moz-column: 3; /* For Firefox */
+	column-count: 3; /* Standard syntax */
+	-webkit-column-rule-style: solid; /* For Chrome, Opera, and Safari */
+    -moz-column-rule-style: solid; /* For Firefox */
+    column-rule-style: solid; /* Standard syntax */
+	margin: 3%;
+	width: 80%;
+}

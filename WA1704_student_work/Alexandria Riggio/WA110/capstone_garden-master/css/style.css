@@ -1,0 +1,297 @@
+/* Style sheet created by Ally Riggio */
+
+body {
+	background-color: #bfff80;
+}
+
+#container {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+img {
+	align: center;
+	width: 100%;
+	border-radius: 1em;
+}
+
+header {
+	font-family:'Coming Soon', serif;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+header img {
+	max-width: 100%;
+}
+
+nav {
+	text-align: center;
+	font-family: 'Actor', sans-serif;
+	font-size: 1.25em;
+	margin-top: 1em;
+}
+
+nav li {
+	list-style-type: none;
+	background-color: #196719;
+	margin: 0.3em; /*THIS IS WHAT HELPS SEPARATE THE BUTTONS*/
+	padding: 0.3em; /*THIS IS WHAT MAKES THEM THICKER*/
+	border-radius: 2em;
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+main {
+	font-family: 'Actor', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Coming Soon', serif;
+	padding: -2em;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Actor', sans-serif;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Actor', sans-serif;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+	
+.about {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e6ffb3;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.events {
+	background-color: #e6ffb3;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+#contact {
+	text-align: left;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em
+}
+
+label {
+	display: block;
+}
+
+.geninfo {
+	margin-right: 2em;
+}
+
+.comment {
+	margin-top: 0.5em;
+}
+
+form li {
+	list-style-type: none;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+	
+.chkbx {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+footer {
+	font-family: 'Actor', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 1.5em;
+	clear: both;
+}
+
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.desktop {
+		display: none;
+	}
+
+@media only screen and (min-width: 625px) {
+
+	header {
+		text-align: left;
+	}
+	
+	nav {
+		margin-top: -0.7em;
+	}
+
+	nav li {
+		display: inline;
+		background-color: transparent;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+	
+	nav li a {
+		color: black;
+		font-size: 12px;
+		padding: -2.5em;
+	}
+	
+	nav li a:link {
+		color: #000000;
+	}
+	
+	nav li a:visited {
+		color: #000000;
+	}
+	
+	nav li a:hover {
+		color: #008000;
+	}
+	
+	.pull-left {
+		text-align: left;
+		float: left;
+	}
+	
+	.pull-right {
+		text-align: right;
+		padding-top: 0.5em;
+	}
+	
+	#banner {
+		padding-top: 2em;
+		background-image: url('../images/imagejumbo.jpg');
+		width: 100%;
+		height: 450px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 1em;
+	}
+	
+	#banner .imghead {
+		font-family: 'Coming Soon', serif;
+		position: relative;
+		top: 200px;
+		left: 25px;
+	}
+	
+	#banner h1 {
+		font-size: 4em;
+	}
+	
+	#banner h3 {
+		text-align: left;
+		font-size: 1.5em;
+		margin-top: -2em;
+		font-family: 'Coming Soon', serif;
+	}
+	
+	main {
+		margin-top: -1.3em;
+		padding: 1.5em;
+	}
+	
+	main p {
+		color: black;
+	}
+	
+	article {
+		background-color: #e6ffb3;
+		border-radius: 1em;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 31%;
+	}
+	
+	article a {
+		color: #008000;
+		text-decoration: none;
+	}
+	
+	.about {
+		text-align: left;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: transparent;
+		border-radius: 1em;
+	}
+
+	.location {
+		background-color: #e6ffb3;
+		border-radius: 1em;
+		padding: 1em;
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+	}
+	
+	.events {
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		background-color: transparent;
+	}
+	
+	caption {
+		text-align: center;
+	}
+	
+	#contact {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	.desktop {
+		display: inline;
+	}
+	
+	footer {
+		color: black;
+		margin-top: 1.5em;
+	}
+	
+}

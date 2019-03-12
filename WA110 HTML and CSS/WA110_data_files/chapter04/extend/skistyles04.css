@@ -1,0 +1,24 @@
+/*Your Name and today's date */
+
+body { color: #FFFFFF;  
+	  background-color: #C9E4FF; 
+	  font-family: Calibri, sans-serif;
+}
+	 
+#outer-wrapper {	width: 90%; 
+				margin: 0 auto 0 auto; 
+}
+				
+header, nav, #content, footer { background-color: #4CA6FF;
+							padding: 10px;
+}
+
+footer { font-size: 0.75em;
+	   text-align: center;
+}
+	
+img { float: left;
+}
+
+.rightmargin { margin-right: 2%;
+}

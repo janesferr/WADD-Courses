@@ -1,0 +1,98 @@
+<!doctype html>
+<!--Website created by Bryan Ortiz 05-04-2017-->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Karma|Merienda|Ranga" rel="stylesheet">
+	<link rel="stylesheet" href="css/rstyles.css">
+	<link rel="icon" href="images/doflag.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dominican Grill Restaurant &amp; Bar</title>
+</head>
+
+<body>
+	<div class="nav">
+		<div class="container">
+			<ul class="pull-left">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="drinks.html">Beverage Menu</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Log In</a></li>
+				<li><a href="order.html">Make an Order</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h1><a id="home" href="index.html">Dominican Grill Restaurant &amp; Bar</a></h1>
+			<p><a href="menu.html">Explore our selection of tantalizing and authentic Dominican dishes.</a></p>
+		</div>
+	</div>
+	<div class="learn-more">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Place Your Order</h3>
+					<form>
+						<label for="fName">First Name:</label>
+						<input type="text" id="fName" name="fName">
+							
+						<label for="lName">Last Name:</label>
+						<input type="text" id="lName" name="lName">
+							
+						<label for="email">Email Address:</label>
+						<input type="email" id="email" name="email">
+							
+						<label for="phone">Phone Number:</label>
+						<input type="tel" id="phone" name="phone">
+								
+						<label for="reference">Pickup or Delivery?</label>
+						<select name="reference" id="reference">
+							<option value="pickup">Pickup at Restaurant</option>
+							<option value="delivery">Delivery</option>
+						</select><br>
+							
+						<label for="questions">Order<br>(please include size and # of orders for each item please)</label>
+						<textarea id="order" name="order" rows="3" cols="25"></textarea>
+							
+						<label for="questions">Special Requests?<br>(additional charges may apply for certain special requests or substitutions)</label>
+						<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+							
+						<p>Fill in only if choosing delivery.</p><br><br>
+							
+						<label for="address">Address Line 1:</label>
+						<input type="text" id="address" name="address">
+							
+						<label for="address">Address Line 2:</label>
+						<input type="text" id="address" name="address">
+							
+						<label for="city">City:</label>
+						<input type="text" id="city" name="city">
+							
+						<label for="state">State:</label>
+						<select name="state" id="state">
+							<option value="NY">New York</option>
+						</select>
+							
+						<label for="zipCode">Zip Code:</label>
+						<input type="text" id="zipCode" name="zipCode">
+								
+						<input type="submit" id="submit" value="Submit Order" class="btn">
+						<input type="reset" id="reset" value="Reset Order" class="btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>&copy;2017 Dominican Grill Restaurant &amp; Bar</p>
+		<p>Email:&nbsp;<a href="mailto:domgrillbar@dgandbar.com">domgrillbar@dgandbar.com</a></p>
+	</footer>
+</body>
+</html>

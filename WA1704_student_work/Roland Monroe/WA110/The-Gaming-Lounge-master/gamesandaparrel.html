@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>
+var boop = new Audio();
+boop.src = "boop.mp3";
+</script>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Gaming Lounge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class ="container1">
+	<nav>
+		<ul>
+			<li><a href="home.html" onmousedown="boop.play()">Home</a></li>
+			<li><a href="rules.html" onmousedown="boop.play()" >Rules</a></li>
+			<li><a href="gamerooms.html" onmousedown="boop.play()" >Game Rooms</a></li>
+			<li><a href="tournaments.html" onmousedown="boop.play()" >Tournaments</a></li>
+			<li><a href="gamesandaparrel.html" onmousedown="boop.play()">Games & Aparrel</a></li>
+		</ul>			
+	</nav>
+
+	<main>
+	
+	
+	<div class="gamestobuy">
+		<article>
+      <h3>Games To Buy</h3>
+      <form>
+         <input type="checkbox" id="item1" value="5000" />
+         <label for="item1">Grand Theft Auto 5(NextGen) ($50.00)</label>
+         <input type="checkbox" id="item2" value="2000" />
+         <label for="item2">H1Z1(PC) ($20.00)</label>
+         <input type="checkbox" id="item3" value="1000" />
+         <label for="item3">Black Ops(console)  ($10.00)</label>
+         <input type="checkbox" id="item4" value="2500" />
+         <label for="item4">Minecraft(PC,NextGen,Console) ($25.00)</label> 
+	<br><br>
+	<h3>Game Lounge Aparrel</h3>
+		 <input type="checkbox" id="item5" value="2000" />
+         <label for="item5">Gamer Lounge Tee ($20.00)</label>
+         <input type="checkbox" id="item6" value="4000" />
+         <label for="item6">Gamer Lounge Hoodie ($40.00)</label>
+         <input type="checkbox" id="item7" value="1500" />
+         <label for="item7">Gamer Lounge Baseball Cap  ($15.00)</label>
+         <input type="checkbox" id="item8" value="1000" />
+         <label for="item8">Gamer Lounge String Bag($10.00)</label>
+		 <input type="button" value="Calculate" id="sButton" />
+      </form>
+	  <table>
+         <colgroup>
+            <col class="label" />
+            <col class="amount" />
+         </colgroup>
+         <tbody>
+            <tr>
+               <td>Item total</td>
+               <td>0.00</td>
+            </tr>
+            <tr>
+               <td>Tax</td>
+               <td>0.00</td>
+            </tr>
+            <tr>
+               <td>Total with tax</td>
+               <td>$0.00</td>
+            </tr>
+         </tbody>
+      </table>
+   </article>
+   
+    <script>
+	 function calcTotal() {
+		var itemTotal = 0;
+		var tax = 0;
+		var totalWithTax = 0;
+		var items = document.getElementsByTagName("input");
+		var cells = document.getElementsByTagName("td");
+		
+		for (var i = 0; i <8; i++) {
+			if(items[i].checked) {
+			 itemTotal += (items[i].value * 1);
+			}
+		}
+		
+		tax = itemTotal * 0.05;
+		totalWithTax = itemTotal + tax;
+		cells[1].innerHTML = (itemTotal / 100).toFixed(2);
+		cells[3].innerHTML = (tax / 100).toFixed(2);
+		cells[5].innerHTML = "$" + (totalWithTax / 100).toFixed(2);
+	 }
+	 
+	 //add event listener to submit button
+	 
+	 var submitButton = document.getElementById("sButton");
+	 if (submitButton.addEventListener) {
+	  submitButton.addEventListener("click", calcTotal, false);
+	 } else if (submitButton.attachEvent) {
+	  submitButton.attachEvent("onclick", calcTotal);
+	 }
+   </script>
+   </div>
+</body>
+</html>

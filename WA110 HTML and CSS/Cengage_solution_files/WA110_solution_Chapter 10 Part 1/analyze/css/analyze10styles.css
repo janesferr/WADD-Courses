@@ -1,0 +1,79 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E1E4F5;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	margin-top: 0.2em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li */
+nav li {
+	display: inline;
+	list-style-type: none; 
+	margin: 0.3em; 
+	padding: 0.4em;  
+}
+
+/* Style for nav links */
+nav li a { 
+	color: #0C1C96; 
+	text-decoration: none; 
+}
+
+/* Style for the main */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	border: inset 0.2em #7A6D68; 
+}
+
+/* Style for figure element */
+figure  {
+	text-align: center;
+}
+
+/* Style for img element */
+img {
+	padding: 1em;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .90em;
+	text-align: center;
+	margin-top: 2em;
+}

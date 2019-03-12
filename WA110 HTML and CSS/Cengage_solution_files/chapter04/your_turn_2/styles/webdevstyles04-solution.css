@@ -1,0 +1,29 @@
+/*Student Name - Current Date */
+
+.float-right {float:right;
+			 margin: 0 0 3% 3%; /* 0 top 0 right 3% bottom 3% left */
+			 }
+			 
+.float-left {float:left;
+			 margin: 0 3% 3% 0; /* 0 top 3% right 3% bottom 0 left */
+			 } 
+			 
+#outer-wrapper { width:80%;
+			margin: 0 auto 0 auto;
+			}
+
+.clear-float { clear: both;}
+
+.webdev {	font-family: "Mission Gothic", "Times New Roman", serif;
+			font-size: 3em;
+			color: #0033CC;
+		}
+
+dt { font-weight: bold; 
+		color: #0033CC;
+}
+		
+		
+footer li { list-style-type: none;
+		display: inline;
+		}

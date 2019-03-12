@@ -1,0 +1,42 @@
+/*Your Name and today's date */
+
+body { color: #FFFFFF;  /*set text color to white*/
+	  background-color: #C9E4FF; /*set background color to light blue*/
+	  font-family: Calibri, sans-serif; /*set font to Calibri, or the generic sans-serif font*/
+}
+	 
+#outer-wrapper {	width: 90%; /*set width of id="outer-wrapper" to 90%*/
+				margin: 0 auto 0 auto; /*center content within id="outer-wrapper"*/
+}
+				
+nav, #content, footer { 	background-color: #4CA6FF; /*set background color to bright blue*/
+						padding: 10px; /*add 10px of padding on all four sides of the wireframe containers*/
+}
+
+header {	background-color: #4CA6FF;
+		padding: 0 2% 2% 0; 
+}
+
+footer { font-size: 0.75em;   /*reduce the font size in the footer*/
+	   text-align: center;  /*center the text in the footer*/
+}
+	
+img { float: left; /*float the image to the left*/
+}
+ 
+.rightmargin { margin-right: 2%; /*add a 2% right margin to class="rightmargin"*/
+}
+
+h1, h2, h3 { font-family: Verdana, sans-serif; /*add font face */
+			padding-top: 1%;}                /*add 1% padding on the top only*/
+
+li { list-style-type: none;   /*remove bullets on list items*/
+    display: inline;        /*display list items as inline vs. block*/
+  }
+
+nav { background-color: #C9E4FF;  /*change the background color of the nav section */
+	}
+
+.clearfloat { clear: both; }  /*clear the float on the class="clearfloat" in the html*/
+
+

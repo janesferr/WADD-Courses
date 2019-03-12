@@ -1,0 +1,310 @@
+body {
+	background-color: black;
+}
+
+img {
+	max-width: 100%;
+}
+
+.nav a {
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	font-size: 11px;
+}
+
+.nav li {
+	list-style-type: none;
+	margin: 0.1em;
+	padding: 0.1em;
+}
+
+.jumbotron {
+	background-image: url(..//images/flight.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jumbotron h1 {
+	font-family: 'Inknut Antiqua', serif;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
+	color: White;
+}
+
+.jumbotron p {
+	font-family: 'Rock Salt', cursive;
+	text-shadow: 1px 1px black;
+	color: white;
+}
+
+.jumbotron .container {
+	position: relative;
+	
+}
+
+.container h3 {
+	color: white;
+	font-family: 'Rock Salt', curive;
+	text-shadow: 1px 1px black;
+}
+
+.container p {
+	color: white;
+	font-family: 'Rock Salt', cursive;
+}
+
+.jumbotron2 {
+	background-image: url(..//images/food6.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jumbotron2 h2 {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px black;
+	padding-top: 3em;
+	font-weight: bold; 
+}
+
+.jumbotron3 {
+	background-image: url(..//images/bar2.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jumbotron3 h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-shadow: 3px 3px black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.jumbotron4 {
+	background-image: url(..//images/whisk1.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.jumbotron4 h2 {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px white;
+	font-weight: bold;
+}
+
+.jumbotron4 p {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-weight: bold;	
+}
+
+article  h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+}
+
+article p {
+	padding: 1em;
+	color: white;
+}
+
+.food h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.food p {
+	padding: 1em;
+	color: white;
+}
+
+.food2 h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.food2 p {
+	padding: 1em;
+	color: white;
+}
+
+aside {
+	background: white;
+	font-family: 'Rock Salt', cursive;
+	color: black;
+	text-align: center;
+	padding: 0.5em;
+	border-radius: 3em 3em 3em;
+}
+	
+form  {
+	color: white;
+}
+
+.address {
+	color: white;
+	padding-top: 2em;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+	color: black;	
+}
+
+
+footer {
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	padding-top: 2em;
+}
+
+@media only screen and (min-width: 660px) {
+	
+	.jumbotron {
+		height: 250px;
+	}
+	
+	.jumbotron h1 {
+		color: black;
+		text-shadow: 1px 1px white;
+		font-size: 5em;
+	}
+	
+	.jumbotron2 {
+		height: 350px;
+	}
+	
+	.jumbotron2 h2 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 1.5em;
+	font-size: 5em;
+	}
+	
+	.jumbotron3 {
+		height: 350px;
+	}
+	
+	.jumbotron3 h1 {
+		font-size: 3em;
+	}
+	
+	.jumbotron4 {
+		height: 350px;
+		text-align: center;
+		font-size: 20px;
+	}	
+	
+	.jumbotron4 h2 {
+		padding-top: 3em;
+		font-size: 40px;
+		text-shadow: 3px 3px white;
+	}
+	
+	.jumbotron4 p {
+		font-size: 30px;
+		text-shadow: 2px 2px black;
+	}
+	
+	article {
+		background-color: black;
+		float: left;
+		padding: 0.5em;
+		width: 50%;
+	}
+	
+	aside {
+		background-color: white;
+		border-radius: 3em 3em 3em;
+		color: black;
+		padding: 1.5em;
+		margin: 1.5em;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	footer {
+		clear: left;
+	}	
+}
+
+@media only screen and (min-width: 830px) {
+	
+	
+	.jumbotron {
+		height: 500px;
+	}
+	
+	.jumbotron h1 {
+		color: black;
+		text-shadow: 1px 1px white;
+		font-size: 10em;
+		padding-top: 1em;
+	}
+	
+	.jumbotron2 {
+		height: 500px;
+	}
+	
+	.jumbotron2 h2 {
+		font-size: 8em;
+		padding-bottom: 10em;
+	}
+	
+	.jumbotron3 {
+		height: 500px;
+	}
+	
+	.jumbotron4 {
+		height: 500px;
+	}
+	
+	.jumbotron4 h2 {
+		font-size: 50px;
+	}
+	
+	article {
+		background-color: black;
+		float: left;
+		padding-left: 15%;
+		text-align: center;
+		width: 40%;
+	}
+
+	main article img {
+		border: solid .05em black;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	
+	footer {
+		background-color: black;
+		clear: left;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+
+

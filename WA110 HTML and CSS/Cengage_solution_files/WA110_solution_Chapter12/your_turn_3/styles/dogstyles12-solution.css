@@ -1,0 +1,223 @@
+/* Student name - Current date */
+
+/*	Unique styles provided by each student include....		
+•	Student 1: HTML Social Media Updates
+•	Student 2: CSS Social Media Styles
+•	Student 3: JavaScript functions 
+•	Student 4: JavaScript functions */
+
+/*  Sample solution */
+
+/* Mobile Layout */
+
+/* Style for page-wrapper element */
+#page-wrapper { 
+	width: 100%;
+	margin: 0 auto; /* 0 top and bottom, auto left and right */
+}
+
+/* Font color and font face for the body */
+body { 
+	color: #663300;
+	font-family: Play, Cabin, sans-serif;
+}
+		
+/*	Style for main element */
+main { 
+	background-color: #E0D6CC;
+	padding: 5%; 
+	display: block;
+}  
+
+/*	Style for section element */
+section {
+	margin-bottom: 2%;
+	background-color: #FFFFFF;
+	padding: 1%;
+	border: solid 0.2em #660033;
+}
+
+/*	Style for section h2 element */
+section h2 {
+	text-align: center;
+}
+
+/*	Style for figure element */
+figure {
+	text-align: center;
+}
+
+/*	Style for article element */
+article {
+	background-color: #FFFFFF;
+	margin-bottom: 1em;
+	padding: 2%;
+	border: solid 0.2em #660033;
+}
+
+/* Style removes default padding from unordered list */
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: #660033;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Style creates a horizontal navigation bar - from Student 4*/
+nav li { 
+	display: inline;
+}
+
+/* Style creates a horizontal navigation bar - from Student 4*/
+nav li a{ 
+	color: #FFFFFF;
+	margin: 5%;
+	text-decoration: none;
+}
+
+/*	Style for img element */
+img { 
+	max-width: 100% 
+}
+
+/* Style rule for input, select, and textarea form elements */
+/* Completed by Student 3 */
+input, select, textarea { 
+    display: block;
+	margin-bottom: 1em;
+}
+
+/* Style rule for label element */
+/* Completed by Student 3 */
+label {
+	display: block;
+}
+
+/* Style rule for the ad class */
+/* Completed by Student 3 */
+.dog {
+	text-align: center;
+	padding: 1em;
+}
+
+/* Style rule for the video element */
+/* Completed by Student 4 */
+video {
+	border: 0.3em ridge #660033;
+	border-radius: 1em;
+	box-shadow: 0.5em 0.5em 0.5em #2C2D3D;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Style rule for social div */
+#social {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#social img {
+	padding: 0.5em;
+}
+
+.desktop {
+	display: none;
+}
+
+/* Styles for tablet viewport created by Students 1 and 2*/
+@media only screen and (min-width: 481px) {
+
+/* Style for header element */
+header {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+/* Style for nav li element */
+nav li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: inline-block;
+	width: 30%;
+}
+
+/* Style for main element */
+main {
+	display: block;
+	margin-top: 1em;
+	clear: left;
+}
+
+/* Style specifies a gradient for the body element */ 
+body {
+	background: -moz-linear-gradient(#FFFFFF, #660033); /* Firefox */ 
+	background: -o-linear-gradient(#FFFFFF, #660033); /* Opera */ 
+	background: -webkit-linear-gradient(#FFFFFF, #660033); /* Chrome, Safari */
+	background: linear-gradient(#FFFFFF, #660033); 
+}
+
+/* Style for mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style for desktop class */
+.desktop {
+	display: inline;
+}
+
+/* Style rule for label element */
+/* Completed by Student 4 */
+label { 
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+
+}
+
+/* Styles for desktop viewport */
+@media only screen and (min-width: 769px) {
+
+#page-wrapper {
+	width: 90%;
+}
+
+/* Style rules for pseudo-classes */ 
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:visited {
+	color: #FFCCFF;	
+}
+
+nav li a:hover {
+	color: #996633;
+	font-weight: bold;
+}
+
+nav li a:active {
+	color: #000000;
+}
+
+section {
+	float: left;
+	width: 28%;
+	margin: 1%;
+}
+
+article {
+	float: left;
+	width: 25%;
+	margin: 1%;
+}
+
+main {
+	overflow: auto;
+}
+
+}

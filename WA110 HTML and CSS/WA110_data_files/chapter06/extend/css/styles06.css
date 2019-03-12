@@ -1,0 +1,56 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #B8B894;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin and center aligns content */
+header {
+	margin-top: 0.2em;
+	text-align: center;
+}
+
+#gradient1 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+}
+
+#gradient2 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+}
+
+#gradient3 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+}
+
+#gradient4 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+}
+
+#gradient5 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}

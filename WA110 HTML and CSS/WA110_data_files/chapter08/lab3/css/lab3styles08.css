@@ -1,0 +1,22 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for the body element */
+body {
+	background: -webkit-linear-gradient(white, yellow); 
+    background: -o-linear-gradient(white, yellow); 
+    background: -moz-linear-gradient(white, yellow);
+    background: linear-gradient(white, yellow); 
+	background-attachment: fixed;
+}
+
+/* Style for the container element */
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}

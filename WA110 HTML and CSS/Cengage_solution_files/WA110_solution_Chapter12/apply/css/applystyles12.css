@@ -1,0 +1,57 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #D3ECF5;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #1427A6;
+	color: #FFFFFF;
+	padding: 0.5%;
+}
+
+/* Style rule for h1 element center aligns text */
+h1 {
+	text-align: center;
+}
+
+/* Style for the main element  */
+main {
+	display: block;
+	margin: 1%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	box-shadow: .5em .5em .5em #404040;
+}
+
+/* Style rule for article creates columns */
+article {
+	column-count: 3;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-gap: 3em;
+	-webkit-column-gap: 3em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 3em; /* Firefox */
+	column-rule-style: solid;    
+	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 3em;
+}

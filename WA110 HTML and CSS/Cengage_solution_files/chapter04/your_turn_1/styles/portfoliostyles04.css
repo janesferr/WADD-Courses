@@ -1,0 +1,25 @@
+/*Your Name and Current Date */
+
+.float-left {float:left;} 
+
+img { margin-right: 3%; 
+	 margin-bottom: 2%;
+	 }
+
+#outerwrapper { width:70%;
+			margin: 0 auto 0 auto;
+				}
+
+#main { clear: both; 
+		margin-top: 3%;
+		background-color: #CCFFFF;
+		padding: 3%;
+		border: 2px black solid;
+		border-radius: 25px;
+		}
+
+.myname {	font-family: Futura, Calibri, sans-serif;
+			font-size: 2em;
+		}
+		
+nav ul { list-style-type: none; }

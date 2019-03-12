@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Student Name and current date -->
+<html lang="en">
+<head>
+	<title>Dog Hall of Fame</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/dogstyles09-solution.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="page-wrapper"> 
+
+	<header>
+	    <img src="images/banner.jpg"  class="center-img" alt="banner logo for Dog Hall of Fame" >
+		<h1>Dog Hall of Fame</h1>
+		<p>They serve, we honor</p><!--tagline-->
+	</header>
+	
+	<nav><!--Nav will be in horizontal, after the header-->
+	
+		<ul>
+		   <li><a href="dogfame09-solution.html">Home</a> </li>
+		   <li><a href="winners09-solution.html">Winners</a></li>
+		   <li><a href="nominations09-solution.html">Nominations</a></li>
+		</ul>	
+		
+	</nav>
+	
+	<main>
+	
+		<div class="dog"><!-- Students 1 & 2 -->
+		<video autoplay controls width="640" height="420">
+			<source src="media/dogs.mp4" type="video/mp4">
+			<source src="media/dogs.ogg" type="video/ogg">
+			<source src="media/dogs.webm" type="video/webm">
+			<p>Your browser does not support the video tag.</p>
+		</video>
+		</div>
+	
+		<h2>Hero dog</h2>
+		<p>Hero dogs are include all breeds.  They are ordinary dogs with extraordinary stories.</p>
+		<p>Complete the form below to submit your Hero dog nomination.</p>
+		
+		<h2>Working dog</h2>
+		<p>Working dogs protect people, livestock, and property as well as dogs who hunt or track.  The Labrador, husky, Doberman, pinscher, Rottweiler, Saint Bernard, German shepherd, Great Dane, and many large breeds and mixes are included in this group.</p>
+		<p>Complete the form below to submit your Working dog nomination.</p>
+		
+		<h2>Companion dog</h2>
+		<p>Any dog can be a “companion” dog but examples often include dogs who provide an extraordinary benefit to someone who is suffering from health issues or other hardships.  Any breed may qualify for this award, but terriers, Chihuahuas, poodles, pugs and small mixed breeds are often included in this group.</p>
+		<p>Complete the form below to submit your Companion dog nomination.</p>
+		
+		<form>
+		
+			<label for="fName">Your First Name:</label><!-- Completed by Student 1-->
+			<input type="text" name="fName" id="fName" required>
+			
+			<label for="lName">Your Last Name:</label><!-- Completed by Student 1-->
+			<input type="text" name="lName" id="lName" required> 
+			
+			<label for="email">Email:</label><!-- Completed by Student 1-->
+			<input type="email" name="email" id="email" required>
+			
+			<label for="phone">Phone:</label><!-- Completed by Student 1-->
+			<input type="tel" id="phone" name="phone">
+			
+			<label for="dName">Dog's Name:</label><!-- Completed by Student 1-->
+			<input type="text" name="dName" id="dName" required> 			
+			
+			<label for="nom">Nomination for:</label><!-- Completed by Student 2-->
+			<select name="nom" id="nom">
+				<option value="hero">Hero dog</option>
+				<option value="worker">Worker dog</option>
+				<option value="companion">Companion Dog</option>
+			</select>
+			
+			<label for="story">Tell us your dog's story.</label><!-- Completed by Student 2-->
+			<textarea id="story" name="story" rows="5" cols="35" required></textarea>
+			
+			<p>Upload a picture of your dog here.</p><!-- Completed by Student 2-->
+			<input type="file" size="20">
+			
+			<input type="submit" id="submit" value="Submit Nomination"><!-- Completed by Student 2-->
+			<input type="reset" id="reset" value="Start Over"><!-- Completed by Student 2-->
+		
+		</form>
+		
+	</main><!--end main-->
+	
+</div> <!--close page-wrapper-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

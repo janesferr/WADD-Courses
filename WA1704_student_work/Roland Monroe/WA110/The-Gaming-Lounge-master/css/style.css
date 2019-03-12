@@ -1,0 +1,561 @@
+/*style specifies the background color and width*/
+/*.container0 {
+	background-image: url(../images/gaming.jpg);
+	background-size: cover;
+} */
+body {
+	max-width: 100%;
+	background-color: grey;
+}
+/*style specifies the image width*/
+img {
+	width: 100%;
+}
+/*style specifies the navigation font size, text align, and width*/
+nav {
+	font-size: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+/*style specifies the navagation unordered list padding, and margin*/
+nav ul {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+/*style specifies the navagation list font, background, border, list type, margin, padding and background*/
+nav li {
+	
+	font-family: 'Press Start 2P', cursive;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 1em;
+	padding: 0;
+	display: inline;
+	background: linear-gradient(to bottom, #808080 0%, #000000 100%);
+
+}
+/*style specifies the navagation list anchors text decoration and color*/
+nav li a {
+	text-decoration: none;
+}
+/*style specifies the navagation links pseudo-classes*/
+ nav li a:link {
+		color: #1aff1a;
+	} 
+	
+nav li a:visited {
+		color: 1aff1a;
+	}
+	
+nav li a:hover {
+		color: #FFFFFF;
+		font-style: italic;
+	}
+
+
+/*style displays the mobile class*/
+.mobile {
+	display: inline;
+}
+/*style hides the desktop class*/
+.desktop {
+	display: none;
+}
+
+.gamestobuy {
+	display: inline;
+}
+/*style specifies the section color and font size*/
+section {
+	color: #000000;
+	font-size: 1em;
+}
+
+/*style specifies the main font family, font size, margins, padding border radius, and background color*/
+main {
+	
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+}
+/*style specifies the main anchors color, padding, and text decoration*/
+/*main a {
+	
+	color: #000000;
+	padding: 0.5em;
+	text-decoration: none;
+}*/
+
+main article {
+	display: inline;
+}
+/*style specifies the headers font size*/
+header {
+	font-size: 1em;
+}
+/*style specifies the h1 heading to center the text*/
+h1 {
+	text-align: center;
+}
+/*style specifies the h2 heading to center the text*/
+h2 {
+	text-align: center;
+}
+/*style specifies the h2 paragraph's text align and margin*/
+h2 p {
+	text-align: center;
+	margin: 1em;
+}
+
+ h3 {
+	color: red;
+}
+
+#clothes {
+	text-align: left;
+}
+
+
+/*style specifies the footers font size, text align, margin-top, and color*/
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+/*style specifies the footer anchor's color and text decoration*/
+footer a {
+	color:#FFFFFF;
+	text-decoration: none;	
+}
+
+/*style specifies the label to display in block*/
+label {
+	display: block;
+}
+
+
+/*style specifies the check box to display inline block and margin right*/
+.chkbx {
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.submit {
+	display: submit;
+}
+
+
+/*style hides the tablet class*/
+.tablet {
+	display: none;
+}
+
+.desktop {
+	display: none;
+}
+
+/*style specifies the copyright id float, margin, and width*/
+#copyright {
+	float: left;
+	margin-top: 2em;
+	width: 80%;
+}
+
+/*style rule for social div*/
+#social {
+	width: 10%
+}
+
+/*style rule for social media icons*/
+#social img {
+	padding: 0.5em;
+	text-align: center;
+}
+
+
+@media screen only and (min-width: 753px) {
+
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;		
+}
+
+main {
+	margin-top: -0.3em;
+	border-radius: 0;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.rules {
+	display: inline;
+}
+
+.desktop {
+	display: none;
+}
+
+.tablet {
+	display: inline;
+}
+
+.game {
+	display:inline;
+}
+
+
+
+
+h2 {
+	text-align: center;
+}
+
+section {
+	margin: 1em;
+}
+
+section a {
+	margin: 1em;
+	padding: 1em;
+	font-size:1em;
+}
+
+form {
+		text-align: left;
+		padding: 0em;
+		margin: 0em;
+	}
+	
+	form label {
+		color: red;
+		text-align: left;
+		margin: -1em;
+		padding: 1em;
+	}
+	
+	form ul {
+		text-align: center;
+		padding: 1em;
+	}
+	
+}
+
+@media only screen and  (min-width: 769px){
+	
+	header {
+		text-align: center;
+		font-size: 2em;
+		padding: .5em;
+	}
+	
+	/*style for nav specifies a float, margin and width*/
+	nav {
+		margin-bottom: 4em;
+		margin-top: 4em;
+		list-style: none;
+		padding-bottom: -44px;
+	
+}
+	
+	/*style specifies margin and padding for the unordered list in the nav*/
+	nav ul {
+		padding: 2em;
+		margin-top: 0.1em;
+		margin-bottom: 0.1em;
+	}
+	
+	/*style for navigation list items specifies a border radius, border, margin, width, and padding*/
+	nav li {
+		margin-left: 1em;
+		margin-right:1em;
+		padding: -1em;
+		width: 50%;	
+		font-family: 'Press Start 2P', cursive;
+		font-size: 1.3em;
+		text-decoration: none;
+	}
+	
+	/*style for navagation links specifies display and padding*/
+	
+	
+	/*style rules for pseudo-classes*/
+	nav li a:link {
+		color: #1aff1a;
+	}
+	
+	nav li a:visited {
+		color: #1aff1a;
+	} 
+	
+	nav li a:hover {
+		color: #FFFFFF;
+		font-style: italic;
+	} 
+	
+	/*style specifies border, box shadow, and margin for the main element*/ 
+	main {
+		background-color: #1D1D1C; 
+	} 
+	
+	/*style specifies left and right padding for paragraph elements within the main element*/
+	main p{
+		color: #FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	ul {
+		list-style-type: none;
+		font-size: 1em;
+		color: #FFFFFF;
+		margin: 1em;
+		padding: 1em;
+	}
+	
+	img {
+		max-width: 50%;
+		float: left;
+}
+	
+	/*style specifies a gradient for the body element*/
+#background {
+		background-color: #grey;
+		height: 5em;
+		width: 10px;
+	}
+	
+	.chkbx {
+		display: inline;
+	}
+	
+	.tour {
+		max-width: 100%;
+	}
+	
+	h3 form {
+		float: left;
+	}
+	
+	form {
+		text-align: left;
+		padding: 0em;
+		margin: 0em;
+	}
+		
+	form label {
+		color: #33ffff; 
+		text-align: left;
+		margin: -1em;
+		padding: 1em;
+		width: 100%;
+	}
+	
+	form ul {
+		text-align: left;
+		padding: 1em;
+	}
+	
+	form input {
+		padding: 1em;
+		margin: 1em;
+	}
+	
+	/*style specifies a background color, margin, and padding for footer element*/
+	footer {
+		background-color: #2A2A2A;
+		margin-top: 9.5em;
+		padding: 0;
+		overflow: auto;
+	}
+	
+	/*style specifies color and left margin for the section element*/
+	section {
+		color: #FFFFFF;
+		margin-left: 1em;
+		padding-bottom: 54em;
+	}
+
+	/*style for anchor element within the section element*/
+	section a {
+		color: #FFFFFF;
+	}
+	
+	/*style for paragraph within the section element*/
+	section p {
+		margin-left: 0;
+	}
+	
+	/*style for main h2 element*/
+	main h2 {
+		color:#FFFFFF;
+	}
+	
+	/*style for contact class*/ 
+	
+	.contact {
+		color: #FFFFFF;
+	}
+	
+.mobile {
+		display: none;
+}
+	
+.tablet {
+		display: none;
+}
+	
+.desktop {
+		display: inline;
+}
+.rules {
+		display: inline;
+		min-width: 100%;
+		height: 250px;
+}
+	
+td {
+	color: #FFFFFF;
+}
+	
+#item1 {
+	float: left;
+}
+#item2 {
+	float: left;
+}
+#item3 {
+	float: left;
+}
+#item4 {
+	float: left;
+}
+#item5 {
+	float: left;
+}
+#item6 {
+	float: left;
+}
+#item7 {
+	float: left;
+}
+#item8 {
+	float: left;
+}
+	
+.container0 {
+	background-image: url(../images/cubes.gif);
+	background-size: cover;
+	padding-top: .5em;
+}
+	
+.container1 {
+	background-image: url(../images/money.gif);
+	background-size: 100%;
+	padding-top: .5em;
+}
+
+.container2 {
+	background-image: url(../images/pacman.gif);
+	background-size: 100%;
+	padding-top: .5em;
+}
+
+.container3 {
+	background-image: url(../images/compete.gif);
+	background-size: 100%;
+	padding-top: .5em;
+}
+
+.container4 {
+	background-image: url(../images/clouds.gif);
+	padding-top: .5em;
+}
+
+	
+
+
+header {
+   width: 100%;
+   color: #00ccff;
+   font-size: 2em;
+   font-weight: bold;
+   text-align: center;
+   line-height: 1.5em;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   padding: 0;
+}
+
+#results {
+   border: none;
+   height: 50px;
+   float: right;
+   width: 200px;
+   text-align: left;
+   color: white;
+}
+
+div p {
+   font-weight: bold;
+   margin-top: 0.4em;
+} 
+
+#results li {
+   margin-left: 1em;
+   list-style-type: disc;
+   padding: .2em;
+} 
+
+
+
+#placeLabel{
+	float: left;
+	font-size: 1em;
+	
+} 
+
+.form {
+   background: ;
+   padding: 2px;
+   height: 150px;
+   width: 400px;
+  } 
+
+fieldset {
+   padding: 3em;
+   border: none;
+   float: left;
+   width: 80%;
+   height: 1em;
+  } 
+
+
+fieldset label {
+   display: block;
+   font-weight: bold;
+   text-align: left;
+}
+
+input label, button {
+   margin: -4em;
+   float: right;
+} 
+
+	/*style for main article h2 element*/
+	main article h2 {
+		color: grey;
+	}
+} 

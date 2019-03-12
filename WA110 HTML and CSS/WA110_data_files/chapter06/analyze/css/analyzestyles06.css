@@ -1,0 +1,157 @@
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	margin-top: 0.2em;
+	color: #336699;
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Verdana, Arial, serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #336699; 
+	border-radius: 2em; 
+	list-style-type: none; 
+	margin: 0.3em; 
+	padding: 0.4em;  
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #336699; 
+	border-bottom: solid 0.2em #336699;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Media query for tablet layout */ 
+
+@media only screen and (min-width: 481px) {
+
+/* Style specifies a horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 23%;
+	white-space: nowrap;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+}
+
+/* Media query for desktop layout */
+
+@media only screen and (min-width: 769px) {
+ 
+/* Style specifies width for container */ 
+#container {
+	width: 100%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */ 
+nav li {
+	border-radius: 0;
+	border-top: solid #FFFFFF;
+	border-bottom: solid #FFFFFF;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 25%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+/* Style rules for pseudo-classes */ 
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:hover {
+	color: #FFFFFF;
+}
+
+nav li a:active {
+	color: #FFFFFF ;	
+}
+
+/* Style specifies border, box shadow, and margins for the main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+}

@@ -1,0 +1,181 @@
+/*Your Name and Current Date */
+
+/* Styles for Mobile Layout */
+
+/* Style specifies margin and width for image element */
+img { 
+	max-width: 100%;
+}
+
+/* Style for figure element */
+figure {
+	text-align: center;
+}
+
+/* Style specifies width and margin for the outerwrapper element */
+#outerwrapper { 
+	width:100%;
+	margin: 0 auto 0 auto;
+}
+
+/* Style for header element */
+header {
+	border-top: solid 0.5em #4E5957;
+	border-bottom: solid 0.5em #4E5957;
+}
+
+/* Style to format links within the header element */
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #4E5957;
+	padding: 3%;
+}
+
+/* Style for nav ul element */
+nav ul {
+	padding: 0;
+}
+
+/* Style for nav li element */
+nav li {
+	background-color: #4E5957; 
+	margin: 0.5em; 
+	padding: 1em;  
+	text-align: center;
+	list-style-type: none; 
+}
+
+/* Style for nav anchor elements */
+nav li a { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+}
+
+/* Style specifies clear, margin, background color, padding, and border for the main element */
+main { 
+	margin-top: 3%;
+	padding: 3%;
+	border: solid 0.25em #4E5957;
+	border-radius:1em;
+	display: block;
+}
+
+/* Style for the section element */
+section {
+	background-color: #BCC2C1;
+	margin: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+/* Style for the section h2 element */
+section h2 {
+	border-bottom: solid 0.1em #4E5957;
+}
+
+/* Style for article element */
+article {
+	margin: 2%;
+	padding: 2%;
+	background-color: #BCC2C1;
+	border-radius: 1em;
+}
+
+/* Style specifies text properties for the myname element */
+.myname {	
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+	text-shadow: 2px 2px 5px #4E5957;
+	text-align: center;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for table, th, and td elements */
+table, th, td {
+	padding: 0.2em;
+}
+
+/* Styles for Tablet Viewport */
+@media only screen and (min-width: 695px) {
+
+/* Style to format links within the header element */
+header a {
+	color: #4E5957;
+	background-color: transparent;
+	padding: 1%;
+	text-decoration: underline;
+}
+
+/* Style specifies margin for the nav element */
+nav {
+	margin-top: 2em;
+}
+
+/* Style specifies display and padding for the navigation list items */
+nav li{
+	display: inline;
+	padding: 0;
+	background-color: transparent; 
+}
+
+/* Style specifies color, background color, padding, border, margin, and removes the underline for list item links */
+nav li a {
+		text-decoration: none;
+		color: #000000;
+		background-color: #D1E0E0;
+		padding: 1% 2% 1% 2%;
+		border: 0.1em black solid;
+		border-radius: 0em 1em 0em 1em;
+		margin: 1em;
+}
+
+/* Style hides the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style displays the desktop class */
+.desktop {
+	display: inline;
+}
+
+/* Style for table element */
+table {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* Style for table, th, and td elements */
+table, th, td {
+	border-collapse: collapse;
+	border: solid 0.1em #FFFFFF;
+	padding: 1em;
+}
+
+}
+
+/* Styles for Desktop Viewport */
+@media only screen and (min-width: 769px) {
+
+/* Style specifies width for the outerwrapper element */
+#outerwrapper {
+	width: 90%;
+}
+
+/* Style specifies background color and border for the main element */
+main {
+	background-color: #FFFFFF;
+}
+
+}

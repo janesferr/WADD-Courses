@@ -1,0 +1,183 @@
+/* Stylesheet created by Bryan Ortiz 05-04-17 */
+body {
+	background-color: #1D1D1C;
+}
+
+.nav a {
+	color: red;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 1em 1em;
+	text-transform: uppercase;
+}
+
+.nav .container .pull-left li {
+	display: block;
+}
+
+.nav .container .pull-right li {
+	display: block;
+}
+
+.jumbotron {
+	background-image: url('../images/rinterior2.jpg');
+	height: 49em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	font-family: 'Amatic SC', serif;
+	font-weight: bold;
+	color: white;
+	font-size: 6em;
+	margin-bottom: 0.5em;
+}
+
+#home:link {
+	color: white;
+}
+
+#home:visited{
+	color: white;
+}
+
+.jumbotron p a {
+	font-size: 1em;
+	color: deepSkyBlue;
+	text-shadow: 1px, 1px, gray;
+	font-family: 'Merienda', serif;
+	margin-top: 1em;
+}
+
+.learn-more h3 {
+	font-family: 'Karma', serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	color: white;
+}
+
+.learn-more h4 {
+	font-family: 'Karma', serif;
+	font-size: 1em;
+	color: white;
+}
+.learn-more aside {
+	float: right;
+	font-family: 'Ranga', serif;
+	color: white;
+}
+
+.learn-more p {
+	font-family: 'Ranga', serif;
+	color: white;
+}
+
+form label {
+	float: left;
+	display: inline-block;
+	color: white;
+	font-family: 'Karma', serif;
+	margin-right: 0.5em
+}
+form input {
+	display: block;
+	margin-bottom: 0.5em;
+	
+}
+form select {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+form textarea {
+	display: block;
+	margin: 0.5em;
+}
+
+.col-md-12 form p {
+	font-family: 'Karma', serif;
+	float: left;
+}
+footer {
+	text-align: center;
+	color: white;
+	font-size: 0.5em;
+	margin-top: 1em;
+}
+
+.desktop {
+	display: none;
+}	
+
+.col-md-6 ul li {
+	list-style: none;
+	font-family: 'Ranga', serif;
+	color: white;
+	margin-left: -2.8em;
+}
+
+#mobiletel {
+	display: none;
+}
+
+/* Styling for the Tablet Viewport Media Query */
+@media only screen and (min-width: 560px) {
+
+	.nav .container .pull-left li {
+		display: inline;
+	}
+
+	.nav .container .pull-right li {
+		display: inline;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	#mobiletel {
+		display: inline;
+	}
+}
+
+/* Styling for the Desktop Viewport Media Query */
+@media only screen and (min-width: 769px) {
+
+	.jumbotron {
+		background-image: url('../images/rinterior2.jpg');
+		height: 39em;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.jumbotron h1 {
+		font-family: 'Amatic SC', serif;
+		font-weight: bold;
+		color: white;
+		font-size: 8em;
+		margin-bottom: .8em;
+	}
+	
+	.jumbotron p a {
+		font-size: 1em;
+		color: aqua;
+		text-shadow: 1px, 1px, gray;
+		font-family: 'Merienda', serif;
+		margin-top: 1em;
+	}
+	
+	.desktop {
+		display: block;
+	}
+	
+	.col-md-4 article img{
+		max-width: 100%;
+		width: 50%;
+	}
+	
+	.col-md-3 article img {
+		max-width: 100%;
+		width: 40%;
+	}
+}
